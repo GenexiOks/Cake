@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Обнуление списков */
@@ -46,4 +47,24 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+/* ------Общие стили------- */
+
+p {
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+._container {
+    max-width: 1180px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
